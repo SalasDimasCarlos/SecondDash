@@ -27,7 +27,7 @@ export class AppComponent {
     let y2 = 259;
     let y3 = 442;
 
-    //let zingchart;
+    let zingchart;
     zingchart.THEME="classic";
 
     var myConfig = {
@@ -496,12 +496,18 @@ export class AppComponent {
             zingchart.exec(chartid, 'setseriesvalues', {
                 graphid : snippetid+"_graph",
                 values : [
-                    [10+parseInt(100*Math.random(), 10)],
-                    [10+parseInt(100*Math.random(), 10)],
-                    [10+parseInt(100*Math.random(), 10)]
+                    [10+(100*Math.random(), 10)],
+                    [10+(100*Math.random(), 10)],
+                    [10+(100*Math.random(), 10)]
                 ],
                 smart:true
             });
+            /*
+
+                [10+parseInt(100*Math.random(), 10)],
+                [10+parseInt(100*Math.random(), 10)],
+                [10+parseInt(100*Math.random(), 10)]
+            */
         },
         parse : function(data) {
             var x = data.x || 0;
@@ -596,8 +602,8 @@ export class AppComponent {
             zingchart.exec(chartid, 'setseriesvalues', {
                 graphid : snippetid+"_graph",
                 values : [
-                    [10+parseInt(100*Math.random(), 10)],
-                    [10+parseInt(100*Math.random(), 10)]
+                    [10+(100*Math.random(), 10)],
+                    [10+(100*Math.random(), 10)]
                 ],
                 smart:true
             });
@@ -691,16 +697,16 @@ export class AppComponent {
                 graphid : snippetid+"_graph",
                 values : [
                     [
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
                     ],
                     [
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
                     ]
                 ],
                 smart:true
@@ -796,16 +802,16 @@ export class AppComponent {
                 graphid : snippetid+"_graph",
                 values : [
                     [
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
-                      10+parseInt(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
+                      10+(100*Math.random(),10),
                     ],
                       [
-                        10+parseInt(100*Math.random(),10),
-                        10+parseInt(100*Math.random(),10),
-                        10+parseInt(100*Math.random(),10),
-                        10+parseInt(100*Math.random(),10),
+                        10+(100*Math.random(),10),
+                        10+(100*Math.random(),10),
+                        10+(100*Math.random(),10),
+                        10+(100*Math.random(),10),
                       ]
                 ],
                 smart:true
