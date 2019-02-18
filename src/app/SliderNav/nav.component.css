@@ -1,0 +1,101 @@
+* {
+  background-color: #C0571E;
+}
+
+.h3 {
+  background-color: #FFF;
+  color: #111;
+  font-size: 20px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+
+.h2 {
+  background-color: #FFF;
+  color: #111;
+  font-size: 25px;
+  margin-right: 10%;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.secondPart {
+  background: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+#sidebar-nav {
+  width: 180px;
+  padding: 0;
+  border-right: 1px solid #E0E0E0;
+}
+
+#sidebar-nav ul li a{
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  border-top: 1px inset #FF9566;
+  border-bottom: 1px inset #912C00;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 10px 10px;
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.subMenu li{
+  background-color: #904117;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  font-size: 1em;
+  padding: 10px 10px;
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.subMenu .active,
+.subMenu .active i {
+  background: #602C0F;
+  font-size: 1.1em;
+}
+
+
+.subMenu .active i {
+  color: black;
+  float: right;
+  margin-right: -25px;
+
+}
+
+.different {
+  color: #FF9566;
+  text-shadow: none;
+}
+
+
+#sidebar-nav ul li a:hover,
+#sidebar-nav ul li a:hover .different,
+#sidebar-nav ul li a:hover i{
+  background: #912C00;
+}
+
+#sidebar-nav i {
+  padding-right: 5px;
+  font-size: 1em;
+  width: 25px;
+  text-align: center;
+}
